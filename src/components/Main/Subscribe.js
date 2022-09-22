@@ -1,11 +1,18 @@
 import React from "react";
-import * as S from "../../styles/Main"
+import * as S from "../../styles/Main/Subscribe"
 
 export default function Subscribe(){
     return(
-        <div>
+        <S.SectionSub>
             <S.GlobalStyle/>
             <h2>Subscribe</h2>
-        </div>
+            <p>Sign up for newsletter</p>
+            <S.Form>
+            <label for="email">
+                <S.Email type="email" id="email" placeholder="Your Email" name="email" required/>
+                <S.Botao type='submit' value="SUBIMIT" name="enviar" />
+            </label>
+            </S.Form>
+        </S.SectionSub>
     )
 }

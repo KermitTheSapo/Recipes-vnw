@@ -1,5 +1,5 @@
 import React from "react";
-import * as S from "../../styles/Main"
+import * as S from "../../styles/Main/About"
 import colher from '..//../imgs/about/pexels-karolina-grabowska-4199094.png'
 
 export default function About() {
