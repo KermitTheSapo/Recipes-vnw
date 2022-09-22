@@ -23,8 +23,9 @@ export const FigureAbout = styled.figure`
     background-color: #ffffff;
     display: flex;
     justify-content: space-between;
+    border: solid white 1px;
     img{
-        width: ;
+        width:90% ;
     }
     @media  (max-width: 1023px) {
         display: flex;
