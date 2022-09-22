@@ -48,7 +48,7 @@ export const SectionSub = styled.section`
         }
      p{
         font-family: "Regular";
-        font-size: 3rem;
+        font-size: 2rem;
         width: 100%;
         text-align: center;
 
