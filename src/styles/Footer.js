@@ -1,9 +1,15 @@
-import React from "react";
+import styled, {createGlobalStyle} from "styled-components";
+import SemiBold from "../fonts/HurmeGeometricSans1/SemiBold.otf"
 
-export default function Footer(){
-    return(
-        <div>
-            <h2>Footer</h2>
-        </div>
-    )
-}
+export const GlobalStyle = createGlobalStyle`
+    @font-face {
+        font-family: "teste";
+        src: url(${SemiBold});
+    }
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        font-family: "teste";
+    }
+`
