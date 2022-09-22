@@ -24,12 +24,15 @@ export const Header = styled.header`
     display: flex;
     align-items: center;
     justify-content: space-between;
-    height: 8vh;
+    flex-direction: column;
+    height: 100%;
     background-image: url(${Background});
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: 100% 100%;
     @media screen and (max-width: 1023px) {
         justify-content: flex-end;
+        background-position: -680px 0px;
+        background-size: cover; 
     }
     
 `
@@ -65,10 +68,42 @@ export const Li = styled.li`
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 5vh;
-    width: 8vw;
+    padding: 10px;
     text-transform: uppercase;
+    border: solid transparent;
     &:hover{
         border: solid;
+    }
+`
+
+export const Img = styled.img`
+    display: none;
+    @media screen and (max-width: 1023px) {
+        display: flex;
+    }
+`
+export const Top = styled.div`
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    @media screen and (max-width: 1023px) {
+        justify-content: flex-end;
+    }
+`
+export const Bottom = styled.div`
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 95vh;
+`
+export const Title = styled.h1`
+    font-size: 9.4rem;
+    color: #373737;
+    letter-spacing: 15.75px;
+    text-transform: uppercase;
+    @media screen and (max-width: 1023px) {
+        font-size: 2.5rem;
+        letter-spacing: 4.2px;
     }
 `
