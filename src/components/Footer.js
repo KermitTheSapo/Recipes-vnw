@@ -1,9 +1,9 @@
 import React from "react";
 import * as S from '../styles/Footer.js'
-import instagram from '../imgs/footer/InstagramEllipse.png'
-import twiter from '../imgs/footer/Twitterellipse.png'
-import Facebook from '../imgs/footer/Facebook Ellipse.png'
-import Pinterest from '../imgs/footer/PinterestEllipse.png'
+import Instagram from '../imgs/Footer/InstagramEllipse.png'
+import Twiter from '../imgs/Footer/Twitterellipse.png'
+import Facebook from '../imgs/Footer/FacebookEllipse.png'
+import Pinterest from '../imgs/Footer/PinterestEllipse.png'
 
 export default function Footer() {
     return (
@@ -12,10 +12,10 @@ export default function Footer() {
             <S.Section>
                 <S.Figure>
                     <a href="https://www.instagram.com/" target="_blank" rel="noreferrer" title="Instagram" > 
-                    <img src={instagram} alt="X" />
+                    <img src={Instagram} alt="X" />
                     </a>
                     <a href="https://twitter.com/" target="_blank" rel="noreferrer" title="twiter">
-                    <img src={twiter} alt="X" />
+                    <img src={Twiter} alt="X" />
                     </a>
                     <a href="www.facebook.com" target="_blank" rel="noreferrer" title="Facebook">
                     <img src={Facebook} alt="X" />
