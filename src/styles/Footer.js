@@ -21,6 +21,7 @@ export const GlobalStyle = createGlobalStyle`
 ;
 export const Footer= styled.footer`
  background-color: #F2F4F1;
+ width: 100%;
 `
 
 export const Section = styled.section`
@@ -88,28 +89,21 @@ li{
 
 `
 export const Div= styled.div`
-    background-color: #446061;
+        background-color: #446061;
         width: 100%;
         height: 45px;
         display: flex;
         justify-content: center;
- 
-    p{
-        display: flex;
-        justify-content: center;
-        text-align: center;
-        height: 100%;
-        font-size: 0.6rem;
-    }
     @media  (max-width: 1023px){
         height: 10vh;
     }
-    p{
-       
-        display: flex;
-        justify-content: right;
-        text-align: center;
-        align-items: center;
-        height: 100%;
-    }
+`
+
+export const Paragraph = styled.p`
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100%;
+    font-size: 0.6rem;
 `

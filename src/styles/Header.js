@@ -68,7 +68,7 @@ export const Li = styled.li`
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 10px;
+    padding: 5px;
     text-transform: uppercase;
     border: solid transparent;
     &:hover{

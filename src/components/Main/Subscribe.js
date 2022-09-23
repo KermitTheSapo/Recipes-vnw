@@ -10,7 +10,7 @@ export default function Subscribe(){
             <S.Form>
             <label for="email">
                 <S.Email type="email" id="email" placeholder="Your Email" name="email" required/>
-                <S.Botao type='submit' value="SUBIMIT" name="enviar" />
+                <S.Botao type='submit' value="SUBMIT" name="enviar" />
             </label>
             </S.Form>
         </S.SectionSub>

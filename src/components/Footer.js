@@ -1,13 +1,12 @@
 import React from "react";
 import * as S from '../styles/Footer.js'
-import instagram from '../imgs/Footer/InstagramEllipse.png'
-import twiter from '../imgs/Footer/Twitterellipse.png'
-import Facebook from '../imgs/Footer/Facebook Ellipse.png'
-import Pinterest from '../imgs/Footer/PinterestEllipse.png'
+import instagram from '../imgs/footer/InstagramEllipse.png'
+import twiter from '../imgs/footer/Twitterellipse.png'
+import Facebook from '../imgs/footer/Facebook Ellipse.png'
+import Pinterest from '../imgs/footer/PinterestEllipse.png'
 
 export default function Footer() {
     return (
-
         <S.Footer>
             <S.GlobalStyle />
             <S.Section>
@@ -34,9 +33,7 @@ export default function Footer() {
                 </S.Nav>
             </S.Section>
             <S.Div>
-                <p>
-                Layout produzido por Vai na Web para fins exclusivamente educacionais. Referência: https://br.pinterest.com/pin/AVuDlMAl4GsQiM6nijH9YbG9bsNKpompSEOEHzig6GJ58AnUtMkSy7k/
-                </p>
+                <S.Paragraph>Layout produzido por Vai na Web para fins exclusivamente educacionais. Referência: https://br.pinterest.com/pin/AVuDlMAl4GsQiM6nijH9YbG9bsNKpompSEOEHzig6GJ58AnUtMkSy7k/</S.Paragraph>
             </S.Div>
         </S.Footer>
 

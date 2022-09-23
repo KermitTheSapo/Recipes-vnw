@@ -44,9 +44,7 @@ export const Barra = styled.div`
         width: 40px;
         border: solid ;
     @media  (max-width: 1023px){
-        width: 60px;
-        border: solid;
-        
+        width: 60px;       
     }
 
 `
