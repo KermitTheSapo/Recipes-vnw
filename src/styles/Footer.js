@@ -105,5 +105,6 @@ export const Paragraph = styled.p`
     justify-content: center;
     text-align: center;
     height: 100%;
-    font-size: 0.6rem;
+    font-size: 0.5rem;
+    border: solid red;
 `
