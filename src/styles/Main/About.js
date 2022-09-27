@@ -27,7 +27,7 @@ export const FigureAbout = styled.figure`
     img{
         width:90% ;
       
-    }
+    } 
     @media  (max-width: 1023px) {
         display: flex;
         height: 1050px;
@@ -74,6 +74,7 @@ export const DivAbout= styled.div`
             font-size: 1.2rem;
             padding-left: 10px;
             padding-right: 10px;
+            height: 400px;
         }
        
     }
@@ -85,10 +86,11 @@ export const DivAbout= styled.div`
         align-items: center;
         justify-content: space-between;
         height: 70px;
+        
         h2{
             font-size: 2.5rem;
         }
         @media  (max-width: 1023px){
-           
+        
         }
 `
